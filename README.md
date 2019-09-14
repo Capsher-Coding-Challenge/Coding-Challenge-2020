@@ -13,26 +13,28 @@ Our challenge to you is to create a Discord Bot! That's it. You get to decide wh
 ## Getting Started
 There are a couple of things you need to do before writing your first line of code for this challenge.
 1. Register for our challenge
-  * You can sign-up as an individual or as a part of 4-person teams
+  1. You can sign-up in teams of up to 4 people
 2. Sign-up for a GitHub account
-  * As part of your submission you'll need to submit a link to your GitHub Repository so we can check out your source code
-  * You'll also need to download git (the program) so that you can use GitHub
+  1. As part of your submission you'll need to submit a link to your GitHub Repository so we can check out your source code
+  2. Even if you won't be hosting the project repository, you'll probably want collaboration access for the repo
+  3. You'll also need to download git (the program) so that you can use GitHub
 3. Sign-up for a Discord account
-  * We'll be posting notifications for our challenge on our Discord channel
+  1. We'll be posting notifications for our challenge on our Discord channel
 
 ## Requirements For Submission
 1. Product Documentation
-  * Describe how your bot solves a problem (i.e. Problem Statement)
-  * Describe how a user would utilize your bot (i.e. Product Overview & User Commands)
+  1. Describe how your bot solves a problem (i.e. Problem Statement)
+  2. Describe how a user would utilize your bot (i.e. Product Overview & User Commands)
 2. Technical Documentation
-  * Provide an overview of how your app works
-  * Detail any integrated technologies and how your app uses them
-    * Libraries
-    * APIs
-    * Hosting services
+  1. Provide an architectural overview of how your app works
+    1. Detail major system components and how they communicate with each other
+  2. Detail any integrated technologies and how your app uses them
+    1. Libraries
+    2. APIs
+    3. Hosting services
 3. GitHub Repository Link
-  * Submissions should include a GitHub repository link so we can reference your source code and documentation
-4. Students will need to host their app/bot code on a server so that bots can be added to a Capsher Discord Server and be used from there
+  1. Submissions should include a GitHub repository link so we can reference your source code and documentation
+4. Students will need to host their bot code on a server so that bots can be added to a Capsher Discord Server and be used from there
 
 ## Sample Bot
 We've included some bots in python to get you started with understanding the general pattern of how a bot should work. See the SampleBots directory.
@@ -43,13 +45,13 @@ WeatherBot.py is a bot that uses the Open Weather API to provide current weather
 
 If you prefer a different language, here are some links to other GitHub repositories that have sample bots for their discord libraries. You can find the whole list of available libraries for Discord here: https://discordapp.com/developers/docs/topics/community-resources
 
-* Node.js
-  * https://github.com/discordjs/discord.js#example-usage
 * Python
   * https://github.com/Rapptz/discord.py#quick-example
   * Also: https://stackoverflow.com/a/51235308
 * Ruby
   * https://github.com/meew0/discordrb#usage
+* Node.js
+  * https://github.com/discordjs/discord.js#example-usage
 
 ## Helpful Links
 
@@ -68,6 +70,7 @@ If you prefer a different language, here are some links to other GitHub reposito
   * https://guides.github.com/activities/hello-world/#repository
 
 * Discord Bot in Node.js
+  * https://medium.com/@mason.spr/hosting-a-discord-js-bot-for-free-using-heroku-564c3da2d23f
   * https://thomlom.dev/create-a-discord-bot-under-15-minutes/
 * Discord Bot in Python
   * https://issuehunt.io/blog/How-to-write-a-Discord-bot-in-Python-5bb1f0e3c556c5005573c508
