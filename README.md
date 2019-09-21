@@ -13,28 +13,28 @@ Our challenge to you is to create a Discord Bot! That's it. You get to decide wh
 ## Getting Started
 There are a couple of things you need to do before writing your first line of code for this challenge.
 1. Register for our challenge
-  1. You can sign-up in teams of up to 4 people
-2. Sign-up for a GitHub account
-  1. As part of your submission you'll need to submit a link to your GitHub Repository so we can check out your source code
-  2. Even if you won't be hosting the project repository, you'll probably want collaboration access for the repo
-  3. You'll also need to download git (the program) so that you can use GitHub
-3. Sign-up for a Discord account
-  1. We'll be posting notifications for our challenge on our Discord channel
+    1. You can sign-up in teams of up to 4 people
+1. Sign-up for a GitHub account
+    1. As part of your submission you'll need to submit a link to your GitHub Repository so we can check out your source code
+    1. Even if you won't be hosting the project repository, you'll probably want collaboration access for the repo
+    1. You'll also need to download git (the program) so that you can use GitHub
+1. Sign-up for a Discord account
+    1. We'll be posting notifications for our challenge on our Discord channel
 
 ## Requirements For Submission
-1. Product Documentation
-  1. Describe how your bot solves a problem (i.e. Problem Statement)
-  2. Describe how a user would utilize your bot (i.e. Product Overview & User Commands)
-2. Technical Documentation
-  1. Provide an architectural overview of how your app works
-    1. Detail major system components and how they communicate with each other
-  2. Detail any integrated technologies and how your app uses them
-    1. Libraries
-    2. APIs
-    3. Hosting services
-3. GitHub Repository Link
-  1. Submissions should include a GitHub repository link so we can reference your source code and documentation
-4. Students will need to host their bot code on a server so that bots can be added to a Capsher Discord Server and be used from there
+1. User Documentation
+    1. Describe how your bot solves a problem (i.e. Problem Statement)
+    1. Describe how a user would utilize your bot (i.e. Product Overview & User Commands)
+1. Technical Documentation
+    1. Provide an architectural overview of how your app works
+      1. Detail major system components and how they communicate with each other
+    1. Detail any integrated technologies and how your app uses them
+      1. Libraries
+      1. APIs
+      1. Hosting services
+1. GitHub Repository Link
+    1. Submissions should include a GitHub repository link so we can reference your source code and documentation
+1. Students will need to host their bot code on a server so that bots can be added to a Capsher Discord Server and be used from there
 
 ## Sample Bot
 We've included some bots in python to get you started with understanding the general pattern of how a bot should work. See the SampleBots directory.
