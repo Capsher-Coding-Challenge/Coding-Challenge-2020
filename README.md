@@ -27,11 +27,11 @@ There are a couple of things you need to do before writing your first line of co
     1. Describe how a user would utilize your bot (i.e. Product Overview & User Commands)
 1. Technical Documentation
     1. Provide an architectural overview of how your app works
-      1. Detail major system components and how they communicate with each other
+        1. Detail major system components and how they communicate with each other
     1. Detail any integrated technologies and how your app uses them
-      1. Libraries
-      1. APIs
-      1. Hosting services
+        1. Libraries
+        1. APIs
+        1. Hosting services
 1. GitHub Repository Link
     1. Submissions should include a GitHub repository link so we can reference your source code and documentation
 1. Students will need to host their bot code on a server so that bots can be added to a Capsher Discord Server and be used from there
