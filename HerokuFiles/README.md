@@ -11,3 +11,5 @@ More info on Procfiles: https://devcenter.heroku.com/articles/procfile
 Heroku recognizes an app as a Python app by looking for key files. Including a requirements.txt in the root directory is one way for Heroku to recognize your Python app. The requirements.txt file lists the app dependencies together. When an app is deployed, Heroku reads this file and installs the appropriate Python dependencies.
 
 Also including a runtime.txt in the root directory also helps Heroku specify which version of Python your app needs to run.
+
+See: https://devcenter.heroku.com/articles/buildpacks#officially-supported-buildpacks for documentation about what files each language requires for Heroku to recognize the app and build it.

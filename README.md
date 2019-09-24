@@ -68,11 +68,13 @@ If you prefer a different language, here are some links to other GitHub reposito
 #### Tutorials and Articles
 * Git
   * https://guides.github.com/activities/hello-world/#repository
+  * Fix my Git: https://sethrobertson.github.io/GitFixUm/fixup.html
 
 * Discord Bot in Node.js
   * https://medium.com/@mason.spr/hosting-a-discord-js-bot-for-free-using-heroku-564c3da2d23f
   * https://thomlom.dev/create-a-discord-bot-under-15-minutes/
 * Discord Bot in Python
+  * https://boostlog.io/@noodleshogun/making-a-discord-bot-and-hosting-it-on-heroku-5b5d4eb43d3acd0054878bd9
   * https://issuehunt.io/blog/How-to-write-a-Discord-bot-in-Python-5bb1f0e3c556c5005573c508
   * https://realpython.com/how-to-make-a-discord-bot-python/
 
@@ -82,3 +84,4 @@ If you prefer a different language, here are some links to other GitHub reposito
   * Heroku
     * Manual CLI: https://devcenter.heroku.com/articles/git
     * Auto-Deploy: https://devcenter.heroku.com/articles/github-integration
+    * Getting Started with Python: https://devcenter.heroku.com/articles/getting-started-with-python
