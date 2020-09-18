@@ -1,6 +1,6 @@
-# Capsher Technology 2019 ACC Coding Challenge
+# Capsher Technology 2020 ACC Coding Challenge
 
-Welcome to Capsher Technology's 2019 ACC Coding Challenge!
+Welcome to Capsher Technology's 2020 ACC Coding Challenge!
 
 Our challenge to you is to create a Discord Bot! That's it. You get to decide what this bot will do and how you want to develop it. All that we ask is that you create something novel and useful.
 
@@ -39,9 +39,7 @@ There are a couple of things you need to do before writing your first line of co
 ## Sample Bot
 We've included some bots in python to get you started with understanding the general pattern of how a bot should work. See the SampleBots directory.
 
-SimpleBot.py is a basic bot template for python that shows how to define a command and send a response back.
-
-WeatherBot.py is a bot that uses the Open Weather API to provide current weather data.
+SimpleBot.py is a basic bot template for python that shows how to define a command and send a response back. (It's Pokemon themed.)
 
 If you prefer a different language, here are some links to other GitHub repositories that have sample bots for their discord libraries. You can find the whole list of available libraries for Discord here: https://discordapp.com/developers/docs/topics/community-resources
 
@@ -74,14 +72,13 @@ If you prefer a different language, here are some links to other GitHub reposito
   * https://medium.com/@mason.spr/hosting-a-discord-js-bot-for-free-using-heroku-564c3da2d23f
   * https://thomlom.dev/create-a-discord-bot-under-15-minutes/
 * Discord Bot in Python
-  * https://boostlog.io/@noodleshogun/making-a-discord-bot-and-hosting-it-on-heroku-5b5d4eb43d3acd0054878bd9
-  * https://issuehunt.io/blog/How-to-write-a-Discord-bot-in-Python-5bb1f0e3c556c5005573c508
   * https://realpython.com/how-to-make-a-discord-bot-python/
 
 * Deployment
   * AWS EC2
     * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html
   * Heroku
+    * https://techwithtim.net/tutorials/discord-py/hosting-a-discord-bot-for-free/
     * Manual CLI: https://devcenter.heroku.com/articles/git
     * Auto-Deploy: https://devcenter.heroku.com/articles/github-integration
     * Getting Started with Python: https://devcenter.heroku.com/articles/getting-started-with-python

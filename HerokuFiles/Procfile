@@ -1,1 +1,1 @@
-worker: python samplebot.py
+worker: python SimpleBot.py

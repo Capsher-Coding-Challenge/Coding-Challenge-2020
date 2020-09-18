@@ -1,16 +1,34 @@
 import os
+import random
+
 import discord
-from discord.ext import commands
 
-# load token into shell environment variables
-# ex. export DISCORD_BOT_TOKEN="<insert_token_here>"
-token = os.environ['DISCORD_BOT_TOKEN']
+client = discord.Client()
 
-bot = commands.Bot(command_prefix='>')
+@client.event
+async def on_ready():
+	print(f'{client.user.name} has connected to Discord!')
 
-@bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
+@client.event
+async def on_member_join(member):
+	await member.create_dm()
+	await member.dm_channel.send(
+		f'Hi {member.name}, welcome to my Discord server!'
+	)
 
-# This token should be your bot token from discord
-bot.run(token)
+@client.event
+async def on_message(message):
+	if message.author == client.user:
+		return
+
+	starter_pokemon = [
+		'I choose you, Bulbasaur!',
+		'I choose you, Charmander!',
+		'I choose you, Squirtle!',
+	]
+
+	if message.content == 'Which starter do I choose?':
+		response = random.choice(starter_pokemon)
+		await message.channel.send(response)
+
+client.run(TOKEN)
